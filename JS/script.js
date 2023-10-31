@@ -167,29 +167,69 @@
 
 //19.1
 
-const numberOfFilms = +prompt('Сколько фильмов вы уже просмотрели?', '');
+// const numberOfFilms = +prompt('Сколько фильмов вы уже просмотрели?', '');
 
 //19.2
 
-const personalMovieDB = {
-    count: numberOfFilms,
-    movies:{},
-    actors:{},
-    genres:[],
-    privat: false
-};
+// const personalMovieDB = {
+//     count: numberOfFilms,
+//     movies:{},
+//     actors:{},
+//     genres:[],
+//     privat: false
+// };
 
 //19.3
 
-const a = prompt('Один из последних просмотренных фильмов?', ''),
-      b = prompt('На сколько оцените его?', ''),
-      c = prompt('Один из последних просмотренных фильмов?', ''),
-      d = prompt('На сколько оцените его?', '');
+// const a = prompt('Один из последних просмотренных фильмов?', ''),
+//       b = prompt('На сколько оцените его?', ''),
+//       c = prompt('Один из последних просмотренных фильмов?', ''),
+//       d = prompt('На сколько оцените его?', '');
 
-personalMovieDB.movies[a] = b;
-personalMovieDB.movies[c] = d;
+// personalMovieDB.movies[a] = b;
+// personalMovieDB.movies[c] = d;
 
-console.log(personalMovieDB);
+// console.log(personalMovieDB);
 
 // 20/////////////////////////////////////////////////////////////
+
+    // if (1) {
+    //     console.log('Ok!');
+    // } else {
+    //     console.log('Error!');
+    // }
+
+    // const num = 50;
+
+    // if(num < 49) {
+    //     console.log('Error');
+    // } else if (num > 100) {
+    //     console.log('Too much')
+    // } else {
+    //     console.log('Done');
+    // }
+
+    // (num === 50) ? console.log('Ok') : console.log('Error'); //тернарный оператор
+
+    // 4 + 4 //бинарный
+    // + '4' //унарный
+
+    // const num = 50; // проверка на строгое соответствие
+
+    // switch (num) {
+    //     case 49:
+    //         console.log('Not');
+    //         break;
+    //     case 100:
+    //         console.log('Not');
+    //         break;
+    //     case 51:
+    //         console.log('Yeap');
+    //         break;
+    //     default:
+    //         console.log('Something');
+    //         break;
+    // }
+
+// 21/////////////////////////////////////////////////////////////
 
