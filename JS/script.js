@@ -137,7 +137,7 @@
 // инкремент и дикремент
 
 // let incr = 10,
-    // decr = 10;
+// decr = 10;
 
 // ++incr; //increment - PREfix
 // decr--; //decrement - POSTfix
@@ -153,7 +153,7 @@
 ////// || 'ИЛИ'
 
 // const isCheck = false,
-    // isClose = false;
+// isClose = false;
 
 // console.log(isCheck && isClose);
 // console.log(isCheck || isClose);
@@ -193,43 +193,43 @@
 
 // 20/////////////////////////////////////////////////////////////
 
-    // if (1) {
-    //     console.log('Ok!');
-    // } else {
-    //     console.log('Error!');
-    // }
+// if (1) {
+//     console.log('Ok!');
+// } else {
+//     console.log('Error!');
+// }
 
-    // const num = 50;
+// const num = 50;
 
-    // if(num < 49) {
-    //     console.log('Error');
-    // } else if (num > 100) {
-    //     console.log('Too much')
-    // } else {
-    //     console.log('Done');
-    // }
+// if(num < 49) {
+//     console.log('Error');
+// } else if (num > 100) {
+//     console.log('Too much')
+// } else {
+//     console.log('Done');
+// }
 
-    // (num === 50) ? console.log('Ok') : console.log('Error'); //тернарный оператор
+// (num === 50) ? console.log('Ok') : console.log('Error'); //тернарный оператор
 
-    // 4 + 4 //бинарный
-    // + '4' //унарный
+// 4 + 4 //бинарный
+// + '4' //унарный
 
-    // const num = 50; // проверка на строгое соответствие
+// const num = 50; // проверка на строгое соответствие
 
-    // switch (num) {
-    //     case 49:
-    //         console.log('Not');
-    //         break;
-    //     case 100:
-    //         console.log('Not');
-    //         break;
-    //     case 51:
-    //         console.log('Yeap');
-    //         break;
-    //     default:
-    //         console.log('Something');
-    //         break;
-    // }
+// switch (num) {
+//     case 49:
+//         console.log('Not');
+//         break;
+//     case 100:
+//         console.log('Not');
+//         break;
+//     case 51:
+//         console.log('Yeap');
+//         break;
+//     default:
+//         console.log('Something');
+//         break;
+// }
 
 // 21/////////////////////////////////////////////////////////////
 
@@ -324,7 +324,122 @@
 
 // 22/////////////////////////////////////////////////////////////
 
+// let num = 50;
 
+// while (num <= 55) {
+//     console.log(num);
+//     num++;
+// }
+
+//////////
+
+// do {
+//     console.log(num);
+//     num++;
+// }
+// while (num <= 55);
+
+/////////
+
+// for (let i = 1; i < 10; i++) {
+//     if (i === 6) {
+//         // break;
+//         continue;
+//     }
+
+//     console.log(i);
+// }
 
 // 23/////////////////////////////////////////////////////////////
+
+// for (let i = 0; i < 3; i++) {
+//     console.log(i);
+//     for (let j = 0; j < 3; j++) {
+//         console.log(j);
+//     }
+// }
+
+//////////////
+
+// *
+// **
+// ***
+// ****
+// *****
+// ******
+
+// let result = '';
+// const length = 7;
+
+// for (let i = 1; i < length; i++) {
+
+//         for (let j = 0; j < i; j++) {
+//             result += '*';
+//         }
+
+//     result += '\n'
+// }
+
+// console.log(result);
+
+/////////////
+
+// first: for (let i = 0; i < 3; i++) {
+//     console.log(`First level: ${i}`);
+//     for (let j = 0; j < 3; j++) {
+//         console.log(`Second level: ${j}`);
+//         for (let k = 0; k < 3; k++) {
+//             if (k === 2) continue first;
+//             console.log(`Third level: ${k}`);
+//         }
+//     }
+// }
+
+// 24/////////////////////////////////////////////////////////////
+
+// const numberOfFilms = +prompt('Сколько фильмов вы уже просмотрели?', '');
+
+// const personalMovieDB = {
+//     count: numberOfFilms,
+//     movies:{},
+//     actors:{},
+//     genres:[],
+//     privat: false
+// };
+
+// const a = prompt('Один из последних просмотренных фильмов?', ''),
+//       b = prompt('На сколько оцените его?', ''),
+//       c = prompt('Один из последних просмотренных фильмов?', ''),
+//       d = prompt('На сколько оцените его?', '');
+
+// personalMovieDB.movies[a] = b;
+// personalMovieDB.movies[c] = d;
+
+// for (let i = 0; i < 2; i++) {
+//     const a = prompt('Один из последних просмотренных фильмов?', ''),
+//           b = prompt('На сколько оцените его?', '');
+
+//     if (a != null && b != null && a != '' && b != '' && a.length < 50) {
+//         personalMovieDB.movies[a] = b;
+//         console.log('well done');
+//     } else {
+//         console.log('Error');
+//         i--;
+//     }
+// }
+
+// if (personalMovieDB.count < 10) {
+//     console.log('Просмотрено довольно мало фильмов');
+// } else if (personalMovieDB.count >= 10 && personalMovieDB.count < 30) {
+//     console.log('Вы классический зритель');
+// } else if (personalMovieDB.count >= 30) {
+//     console.log('Вы киноман');
+// } else {
+//     console.log('Произошла ошибка');
+// }
+
+
+// console.log(personalMovieDB);
+
+/// 25/////////////////////////////////////////////////////////////
 
