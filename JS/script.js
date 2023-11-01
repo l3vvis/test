@@ -233,3 +233,98 @@
 
 // 21/////////////////////////////////////////////////////////////
 
+// const hamb = 5;
+// const fri = null;
+
+// if (hamb && fri) {
+//     console.log('Cool!');
+// }
+
+// console.log((hamb && fri)); //возвращает булевое значение
+
+////////////
+
+// const hamb = 3;
+// const fri = 1;
+// const cola = 1;
+
+// console.log(hamb === 3 && cola && fri);
+
+// console.log(1 && 0);
+// console.log(1 && 5);
+// console.log(null && 5);
+// console.log(0 && 'qwerty');
+
+// if (hamb === 3 && cola === 1 && fri === 1) {
+//     console.log('AllCool!');
+// } else {
+//     console.log('Out');
+// }
+
+/////////////
+
+// const hamb = 3;
+// const fri = 0;
+// const cola = 0;
+
+// if (hamb || cola || fri) {
+//     console.log('AllCool!');
+// } else {
+//     console.log('Out');
+// }
+
+// console.log(hamb || cola || fri);
+
+////////////
+
+// let johnReport, alexReport, samReport, mariaReport = 'done';
+
+// console.log(johnReport || alexReport || samReport || mariaReport);
+
+////////////
+
+// const hamb = 3;
+// const fri = 3;
+// const cola = 0;
+// const nuggets = 2; 
+
+// if (hamb === 3 && cola === 2 || fri === 3 && nuggets) {
+//     console.log('AllCool!');
+// } else {
+//     console.log('Out');
+// }
+
+// console.log(hamb === 3 && cola === 2 || fri === 3 && nuggets);
+
+////////////
+
+// let johnReport, alexReport, samReport, mariaReport = 'done';
+
+// console.log(johnReport || alexReport || samReport || mariaReport);
+
+// console.log(!0);
+
+//PRACTICE///////////////PRACTICE//
+
+// console.log(NaN || 2 || undefined);
+
+// console.log(NaN && 2 && undefined);
+
+// console.log(1 && 2 && 3);
+
+// console.log(!1 && 2 || !3);
+
+// console.log(25 || null && !3);
+
+// console.log(NaN || null || !3 || undefined || 5);
+
+// console.log(NaN || null && !3 && undefined || 5);
+
+// console.log(5 === 5 && 3 > 1 || 5);
+
+// 22/////////////////////////////////////////////////////////////
+
+
+
+// 23/////////////////////////////////////////////////////////////
+
