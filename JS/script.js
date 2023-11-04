@@ -490,15 +490,103 @@
 
 /// 26/////////////////////////////////////////////////////////////
 
-    const usdCurr = 98;
-    const eurCurr = 110;
+    // const usdCurr = 98;
+    // const eurCurr = 110;
 
-    function convert(amount, curr) {
-        console.log(curr * amount);
-    }
+    // function convert(amount, curr) {
+    //     console.log(curr * amount);
+    // }
 
-    convert(500, usdCurr);
-    convert(500, eurCurr);
+    // convert(500, usdCurr);
+    // convert(500, eurCurr);
 
 /// 27/////////////////////////////////////////////////////////////
+
+    // const usdCurr = 98;
+    // const discount = 0.9
+
+    // function convert(amount, curr) {
+    //     return curr * amount;
+    // }
+
+    // function promotion(result) {
+    //     console.log(result * discount);
+    // }
+
+    // const res = convert(500, usdCurr) 
+    // promotion(res);
+
+    //////////
+
+    // function test() {
+    //     for(let i = 0; i < 5; i++) {
+    //         console.log(i);
+    //         if (i === 3) return
+    //     }
+    //     console.log('done');
+    // }
+
+    // test();
+
+    ////////////
+
+    // function doNothing() {};
+    // console.log(doNothing() === undefined);
+
+/// 28/////////////////////////////////////////////////////////////
+
+    // const str = 'teSt';
+    // const arr = [1, 2, 6];
+
+    // console.log(str[2] = 'd');
+
+    // console.log(str.toUpperCase());
+    // console.log(str.toLowerCase());
+    // console.log(str);
+
+    ////////////
+    
+    // const fruit = 'Some fruit';
+    
+    // console.log(fruit.indexOf('fruit'));
+    // console.log(fruit.indexOf('q'));
+    
+    ////////////
+    
+    // const logg = 'Hello wrld';
+    
+    // console.log(logg.slice(6, 11));
+    
+    // const logg = 'Hello wrld';
+
+    // console.log(logg.substring(6, 11));
+
+    ////////////
+    
+    // const logg = 'Hello wrld';
+    
+    // console.log(logg.substr(6, 5));
+    
+    ////////////
+    
+    // const num = 14.2;
+    
+    // console.log(Math.round(num));
+    
+    ////////////
+    
+    // const test = '12.6px';
+    
+    // console.log(parseInt(test));
+    
+    ////////////
+    
+    // const test = '12.6px';
+    // console.log(parseFloat(test));
+
+/// 29/////////////////////////////////////////////////////////////
+
+
+
+/// 30/////////////////////////////////////////////////////////////
 
