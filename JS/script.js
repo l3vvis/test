@@ -443,42 +443,42 @@
 
 /// 25/////////////////////////////////////////////////////////////
 
-    // let num = 20;
+// let num = 20;
 
-    // function showFirstMessage(text) {
-    //     console.log(text);
-    //     let num = 10;
-    //     console.log(num);
-    // }
+// function showFirstMessage(text) {
+//     console.log(text);
+//     let num = 10;
+//     console.log(num);
+// }
 
-    // showFirstMessage('hello wrld');
-    // console.log(num);
-
-////////////
-    
-    // function calc (a, b) {
-    //     return(a + b);
-    // }
-
-    // console.log(calc(4, 14));
-    // console.log(calc(10, 3));
-    // console.log(calc(100, 13));
+// showFirstMessage('hello wrld');
+// console.log(num);
 
 ////////////
 
-    // function ret() {
-    //     let num = 15;
-    //     return num;
-    // }
+// function calc (a, b) {
+//     return(a + b);
+// }
 
-    // const another = ret();
+// console.log(calc(4, 14));
+// console.log(calc(10, 3));
+// console.log(calc(100, 13));
 
-    // console.log(another);
+////////////
+
+// function ret() {
+//     let num = 15;
+//     return num;
+// }
+
+// const another = ret();
+
+// console.log(another);
 
 ////////////
 
 // const logger = function() {
-    // console.log('hello')
+// console.log('hello')
 // };
 
 // logger();
@@ -490,102 +490,177 @@
 
 /// 26/////////////////////////////////////////////////////////////
 
-    // const usdCurr = 98;
-    // const eurCurr = 110;
+// const usdCurr = 98;
+// const eurCurr = 110;
 
-    // function convert(amount, curr) {
-    //     console.log(curr * amount);
-    // }
+// function convert(amount, curr) {
+//     console.log(curr * amount);
+// }
 
-    // convert(500, usdCurr);
-    // convert(500, eurCurr);
+// convert(500, usdCurr);
+// convert(500, eurCurr);
 
 /// 27/////////////////////////////////////////////////////////////
 
-    // const usdCurr = 98;
-    // const discount = 0.9
+// const usdCurr = 98;
+// const discount = 0.9
 
-    // function convert(amount, curr) {
-    //     return curr * amount;
-    // }
+// function convert(amount, curr) {
+//     return curr * amount;
+// }
 
-    // function promotion(result) {
-    //     console.log(result * discount);
-    // }
+// function promotion(result) {
+//     console.log(result * discount);
+// }
 
-    // const res = convert(500, usdCurr) 
-    // promotion(res);
+// const res = convert(500, usdCurr) 
+// promotion(res);
 
-    //////////
+//////////
 
-    // function test() {
-    //     for(let i = 0; i < 5; i++) {
-    //         console.log(i);
-    //         if (i === 3) return
-    //     }
-    //     console.log('done');
-    // }
+// function test() {
+//     for(let i = 0; i < 5; i++) {
+//         console.log(i);
+//         if (i === 3) return
+//     }
+//     console.log('done');
+// }
 
-    // test();
+// test();
 
-    ////////////
+////////////
 
-    // function doNothing() {};
-    // console.log(doNothing() === undefined);
+// function doNothing() {};
+// console.log(doNothing() === undefined);
 
 /// 28/////////////////////////////////////////////////////////////
 
-    // const str = 'teSt';
-    // const arr = [1, 2, 6];
+// const str = 'teSt';
+// const arr = [1, 2, 6];
 
-    // console.log(str[2] = 'd');
+// console.log(str[2] = 'd');
 
-    // console.log(str.toUpperCase());
-    // console.log(str.toLowerCase());
-    // console.log(str);
+// console.log(str.toUpperCase());
+// console.log(str.toLowerCase());
+// console.log(str);
 
-    ////////////
-    
-    // const fruit = 'Some fruit';
-    
-    // console.log(fruit.indexOf('fruit'));
-    // console.log(fruit.indexOf('q'));
-    
-    ////////////
-    
-    // const logg = 'Hello wrld';
-    
-    // console.log(logg.slice(6, 11));
-    
-    // const logg = 'Hello wrld';
+////////////
 
-    // console.log(logg.substring(6, 11));
+// const fruit = 'Some fruit';
 
-    ////////////
-    
-    // const logg = 'Hello wrld';
-    
-    // console.log(logg.substr(6, 5));
-    
-    ////////////
-    
-    // const num = 14.2;
-    
-    // console.log(Math.round(num));
-    
-    ////////////
-    
-    // const test = '12.6px';
-    
-    // console.log(parseInt(test));
-    
-    ////////////
-    
-    // const test = '12.6px';
-    // console.log(parseFloat(test));
+// console.log(fruit.indexOf('fruit'));
+// console.log(fruit.indexOf('q'));
+
+////////////
+
+// const logg = 'Hello wrld';
+
+// console.log(logg.slice(6, 11));
+
+// const logg = 'Hello wrld';
+
+// console.log(logg.substring(6, 11));
+
+////////////
+
+// const logg = 'Hello wrld';
+
+// console.log(logg.substr(6, 5));
+
+////////////
+
+// const num = 14.2;
+
+// console.log(Math.round(num));
+
+////////////
+
+// const test = '12.6px';
+
+// console.log(parseInt(test));
+
+////////////
+
+// const test = '12.6px';
+// console.log(parseFloat(test));
 
 /// 29/////////////////////////////////////////////////////////////
 
+// let numberOfFilms;
+
+// function start() {
+//     numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
+
+//     while (numberOfFilms == '' || numberOfFilms == null || isNaN(numberOfFilms)) {
+//         numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
+//     }
+// }
+
+// start();
+
+// const personalMovieDB = {
+//     count: numberOfFilms,
+//     movies: {},
+//     actors: {},
+//     genres: [],
+//     privat: false
+// };
+
+// const a = prompt('Один из последних просмотренных фильмов?', ''),
+//     b = prompt('На сколько оцените его?', ''),
+//     c = prompt('Один из последних просмотренных фильмов?', ''),
+//     d = prompt('На сколько оцените его?', '');
+
+// personalMovieDB.movies[a] = b;
+// personalMovieDB.movies[c] = d;
+
+
+// function rememberMyFilms() {
+//     for (let i = 0; i < 2; i++) {
+//         const a = prompt('Один из последних просмотренных фильмов?', ''),
+//             b = prompt('На сколько оцените его?', '');
+    
+//         if (a != null && b != null && a != '' && b != '' && a.length < 50) {
+//             personalMovieDB.movies[a] = b;
+//             console.log('well done');
+//         } else {
+//             console.log('Error');
+//             i--;
+//         }
+//     }
+// }
+
+// rememberMyFilms();
+
+// function detectPersonalLevel() {
+//     if (personalMovieDB.count < 10) {
+//         console.log('Просмотрено довольно мало фильмов');
+//     } else if (personalMovieDB.count >= 10 && personalMovieDB.count < 30) {
+//         console.log('Вы классический зритель');
+//     } else if (personalMovieDB.count >= 30) {
+//         console.log('Вы киноман');
+//     } else {
+//         console.log('Произошла ошибка');
+//     }
+    
+// }
+// detectPersonalLevel();
+
+// function showMyDB(hidden) {
+//     if (!hidden) {
+//         console.log(personalMovieDB);
+//     }
+// }
+// showMyDB(personalMovieDB.privat);
+// console.log(personalMovieDB);
+
+// function writeYourGenres() {
+//     for (let i = 1; i <= 3; i++) {
+//         personalMovieDB.genres[i - 1] = prompt(`Ваш любимый жанр под номером ${i}`);
+//     }
+// }
+
+// writeYourGenres();
 
 
 /// 30/////////////////////////////////////////////////////////////
