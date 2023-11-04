@@ -443,3 +443,62 @@
 
 /// 25/////////////////////////////////////////////////////////////
 
+    // let num = 20;
+
+    // function showFirstMessage(text) {
+    //     console.log(text);
+    //     let num = 10;
+    //     console.log(num);
+    // }
+
+    // showFirstMessage('hello wrld');
+    // console.log(num);
+
+////////////
+    
+    // function calc (a, b) {
+    //     return(a + b);
+    // }
+
+    // console.log(calc(4, 14));
+    // console.log(calc(10, 3));
+    // console.log(calc(100, 13));
+
+////////////
+
+    // function ret() {
+    //     let num = 15;
+    //     return num;
+    // }
+
+    // const another = ret();
+
+    // console.log(another);
+
+////////////
+
+// const logger = function() {
+    // console.log('hello')
+// };
+
+// logger();
+
+////////////
+
+// const calc = (a, b) => {return a + b};
+// const calc = (a, b) => a + b;
+
+/// 26/////////////////////////////////////////////////////////////
+
+    const usdCurr = 98;
+    const eurCurr = 110;
+
+    function convert(amount, curr) {
+        console.log(curr * amount);
+    }
+
+    convert(500, usdCurr);
+    convert(500, eurCurr);
+
+/// 27/////////////////////////////////////////////////////////////
+
