@@ -1000,16 +1000,105 @@
 // };
 
 /// 38/////////////////////////////////////////////////////////////
-
-
-
 /// 39/////////////////////////////////////////////////////////////
 
 
+// Строка
+// 1.
+
+// console.log(typeof(String(null)));
+// console.log(typeof(String(4)));
+
+// // 2.
+
+// console.log(typeof(5 + ''));
+
+// const num = 5;
+
+// console.log('https://vk.com/catalog/' + num);
+
+// const fontSize = 26 + 'px';
+
+// Число
+
+// 1.
+
+// console.log(typeof(Number('5')));
+
+// // 2.
+
+// console.log(typeof(+'5'));
+
+// // 3.
+
+// console.log(typeof(parseInt('15px', 10)));
+
+// let answ = +prompt('Hello', '');
+
+
+// boolean
+
+// 1.
+
+// 0, '', null, undefined, NaN;
+
+// let switcher = null;
+
+// if (switcher) {
+//     console.log('Working...');
+// }
+
+// switcher = 1;
+
+// if (switcher) {
+//     console.log('Working...');
+// }
+
+// // 2.
+
+// console.log(typeof(Boolean('5')));
+
+// // 3.
+
+// console.log(typeof(!!'44444'));
 
 /// 40/////////////////////////////////////////////////////////////
 
+    // let number = 5; debugger
 
+    // function logNumber() {
+    //     // let number = 4; debugger
+    //     console.log(number);
+    // }
+
+    // number = 6;
+
+    // logNumber(); debugger
+
+    
+    // number = 10;
+
+    // logNumber(); debugger
+
+    ///////////////
+
+    // function createCounter() {
+    //     let counter = 0;
+
+    //     const myFunction = function() {
+    //         counter = counter + 1;
+    //         return counter;
+    //     }
+
+    //     return myFunction;
+    // }
+
+    // const increment = createCounter();
+    // const c1 = increment();
+    // const c2 = increment();
+    // const c3 = increment();
+
+    // console.log(c1, c2, c3);
 
 /// 41/////////////////////////////////////////////////////////////
 
