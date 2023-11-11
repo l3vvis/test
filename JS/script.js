@@ -619,7 +619,7 @@
 //     for (let i = 0; i < 2; i++) {
 //         const a = prompt('Один из последних просмотренных фильмов?', ''),
 //             b = prompt('На сколько оцените его?', '');
-    
+
 //         if (a != null && b != null && a != '' && b != '' && a.length < 50) {
 //             personalMovieDB.movies[a] = b;
 //             console.log('well done');
@@ -642,7 +642,7 @@
 //     } else {
 //         console.log('Произошла ошибка');
 //     }
-    
+
 // }
 // detectPersonalLevel();
 
@@ -665,129 +665,129 @@
 
 /// 30/////////////////////////////////////////////////////////////
 
-    // метод .trim() - проверка на пробелы в поле ввода
+// метод .trim() - проверка на пробелы в поле ввода
 
 /// 31/////////////////////////////////////////////////////////////
 
-    // function first() {
-    //     // do some
-    //     setTimeout(function() {
-    //         console.log(1);
-    //     }, 500);
-    // }
+// function first() {
+//     // do some
+//     setTimeout(function() {
+//         console.log(1);
+//     }, 500);
+// }
 
-    // function  second() {
-    //     console.log(2);
-    // }
+// function  second() {
+//     console.log(2);
+// }
 
-    // first();
-    // second();
+// first();
+// second();
 
-    // function learnJS(lang, callback) {
-    //     console.log(`Я учу: ${lang}`);
-    //     callback();
-    // }
+// function learnJS(lang, callback) {
+//     console.log(`Я учу: ${lang}`);
+//     callback();
+// }
 
-    // function done() {
-    //     console.log('Im Done');
-    // }
+// function done() {
+//     console.log('Im Done');
+// }
 
-    // learnJS('JavaScript', done);
+// learnJS('JavaScript', done);
 
 /// 32/////////////////////////////////////////////////////////////
 
-    // const obj = new Object();
+// const obj = new Object();
 
-    // const options = {
-    //     name: 'test',
-    //     width: 1024,
-    //     height: 1024,
-    //     colors: {
-    //         border: 'black',
-    //         background: 'gray'
-    //     }
-    // };
+// const options = {
+//     name: 'test',
+//     width: 1024,
+//     height: 1024,
+//     colors: {
+//         border: 'black',
+//         background: 'gray'
+//     }
+// };
 
-    // console.log(options.name);
-    
-    // delete options.name;
-    
-    // console.log(options);
+// console.log(options.name);
 
-    // let counter = 0;
-    // for (let key in options) {
-    //     if (typeof(options[key]) === 'object') {
-    //         for (let i in options[key]) {
-    //             console.log(`Свойство ${i} имеет значение ${options[key][i]}`);
-    //         }
-    //     } else {
-    //         console.log(`Свойство ${key} имеет значение ${options[key]}`);
-    //         counter++;
-    //     }
-    // }
-    // console.log(counter);
+// delete options.name;
 
-    ///////////////
+// console.log(options);
 
-    // const options = {
-    //     name: 'test',
-    //     width: 1024,
-    //     height: 1024,
-    //     colors: {
-    //         border: 'black',
-    //         background: 'gray'
-    //     },
-    //     makeTest: function() {
-    //         console.log('Test');
-    //     }
-    // };
+// let counter = 0;
+// for (let key in options) {
+//     if (typeof(options[key]) === 'object') {
+//         for (let i in options[key]) {
+//             console.log(`Свойство ${i} имеет значение ${options[key][i]}`);
+//         }
+//     } else {
+//         console.log(`Свойство ${key} имеет значение ${options[key]}`);
+//         counter++;
+//     }
+// }
+// console.log(counter);
 
-    // options.makeTest();
+///////////////
 
-    // const {border, background} = options.colors;
-    // console.log(border, background);
+// const options = {
+//     name: 'test',
+//     width: 1024,
+//     height: 1024,
+//     colors: {
+//         border: 'black',
+//         background: 'gray'
+//     },
+//     makeTest: function() {
+//         console.log('Test');
+//     }
+// };
 
-    // console.log(Object.keys(options).length);
+// options.makeTest();
+
+// const {border, background} = options.colors;
+// console.log(border, background);
+
+// console.log(Object.keys(options).length);
 
 /// 33/////////////////////////////////////////////////////////////
 
-    // const arr = [1, 22, 13, 6, 10];
-    // arr.sort(compareNum);  
-    // console.log(arr);
+// const arr = [1, 22, 13, 6, 10];
+// arr.sort(compareNum);  
+// console.log(arr);
 
-    // function compareNum(a, b) { 
-    //     return a - b;
-    // }
-    // arr[99] = 0;
+// function compareNum(a, b) { 
+//     return a - b;
+// }
+// arr[99] = 0;
 
-    // console.log(arr.length);
-    // console.log(arr);
+// console.log(arr.length);
+// console.log(arr);
 
-    // arr.forEach(function(item, i, arr) {
-    //     console.log(`${i}: ${item} внутри массива ${arr}`);
-    // });
+// arr.forEach(function(item, i, arr) {
+//     console.log(`${i}: ${item} внутри массива ${arr}`);
+// });
 
-    /////////////////////////////////////////////////////
-    
-    // arr.pop(); // - удаляет последний элемент в массиве
-    // arr.push(20); //- добавляет элемент в конец массива 
+/////////////////////////////////////////////////////
 
-    /////////////////////////////////////////////////////
+// arr.pop(); // - удаляет последний элемент в массиве
+// arr.push(20); //- добавляет элемент в конец массива 
 
-    // console.log(arr);
+/////////////////////////////////////////////////////
 
-    // for (let i = 0; i < arr.length; i++) {
-    //     console.log(arr[i]);
-    // }
+// console.log(arr);
 
-    // for (let value of arr) { // - работает только с массиво-подобными сущностями
-    //     console.log(value);
-    // }
+// for (let i = 0; i < arr.length; i++) {
+//     console.log(arr[i]);
+// }
 
-    // const str = prompt('', '');
-    // const products = str.split(', ');
-    // products.sort();
-    // console.log(products.join('; '));
+// for (let value of arr) { // - работает только с массиво-подобными сущностями
+//     console.log(value);
+// }
+
+// const str = prompt('', '');
+// const products = str.split(', ');
+// products.sort();
+// console.log(products.join('; '));
 
 /// 34/////////////////////////////////////////////////////////////
 
@@ -795,110 +795,110 @@
 
 /// 35/////////////////////////////////////////////////////////////
 
-    // let a = 5,
-    //     b = a;
+// let a = 5,
+//     b = a;
 
-    // b = b + 4;
+// b = b + 4;
 
-    // console.log(b);
-    // console.log(a);
+// console.log(b);
+// console.log(a);
 
-    // const obj = {
-    //     a: 5,
-    //     b: 1
-    // };
+// const obj = {
+//     a: 5,
+//     b: 1
+// };
 
-    // const copy = obj; // передаёт ссылку
+// const copy = obj; // передаёт ссылку
 
-    // copy.a = 10;
+// copy.a = 10;
 
-    // console.log(copy);
-    // console.log(obj);
+// console.log(copy);
+// console.log(obj);
 
-    ////////////
+////////////
 
-    // function copy(mainObj) {
-    //     let objCopy = {};
+// function copy(mainObj) {
+//     let objCopy = {};
 
-    //     let key;
-    //     for (key in mainObj) {
-    //         objCopy[key] = mainObj[key];
-    //     }
-    //     return objCopy;
-    // }
+//     let key;
+//     for (key in mainObj) {
+//         objCopy[key] = mainObj[key];
+//     }
+//     return objCopy;
+// }
 
-    // ////////////////////
+// ////////////////////
 
-    // const numbers = {
-    //     a: 2,
-    //     b: 5,
-    //     c: {
-    //         x: 7,
-    //         y: 9
-    //     }
-    // };
+// const numbers = {
+//     a: 2,
+//     b: 5,
+//     c: {
+//         x: 7,
+//         y: 9
+//     }
+// };
 
-    // const newNumbers = copy(numbers);
+// const newNumbers = copy(numbers);
 
-    // newNumbers.a = 10;
-    // newNumbers.c.x = 15;
+// newNumbers.a = 10;
+// newNumbers.c.x = 15;
 
-    // // console.log(newNumbers);
-    // // console.log(numbers);
+// // console.log(newNumbers);
+// // console.log(numbers);
 
-    // //////////////////
+// //////////////////
 
-    // const add = {
-    //     d: 17,
-    //     e: 20
-    // };
+// const add = {
+//     d: 17,
+//     e: 20
+// };
 
-    // const clone = Object.assign({}, add);
+// const clone = Object.assign({}, add);
 
-    // clone.d = 40;
+// clone.d = 40;
 
-    // // console.log(add);
-    // // console.log(clone);
+// // console.log(add);
+// // console.log(clone);
 
-    // const oldArray = ['a', 'b', 'c'];
-    // const newArray = oldArray.slice();
+// const oldArray = ['a', 'b', 'c'];
+// const newArray = oldArray.slice();
 
-    // newArray[1] = 'sasasasasasas';
-    // console.log(newArray);
-    // console.log(oldArray);
+// newArray[1] = 'sasasasasasas';
+// console.log(newArray);
+// console.log(oldArray);
 
-    // //////////////////
+// //////////////////
 
-    // const video = ['youtube', 'vimeo', 'rutube'],
-    //     blogs = ['wordpress', 'JJ', 'blogger'],
-    //         internet = [...video, ...blogs, 'vk', 'telegramm'];
+// const video = ['youtube', 'vimeo', 'rutube'],
+//     blogs = ['wordpress', 'JJ', 'blogger'],
+//         internet = [...video, ...blogs, 'vk', 'telegramm'];
 
-    //         console.log(internet);
+//         console.log(internet);
 
-    // ///////////////////
+// ///////////////////
 
-    // function log (a, b, c) {
-    //     console.log(a);
-    //     console.log(b);
-    //     console.log(c);
-    // }
+// function log (a, b, c) {
+//     console.log(a);
+//     console.log(b);
+//     console.log(c);
+// }
 
-    // const num = [2, 5, 7];
+// const num = [2, 5, 7];
 
-    // log(...num);
+// log(...num);
 
-    ///////////////////
+///////////////////
 
-    // const array = ['a', 'b'];
+// const array = ['a', 'b'];
 
-    // const newAarray = [...array];
+// const newAarray = [...array];
 
-    // const q = {
-    //     one: 1,
-    //     two: 2
-    // };
+// const q = {
+//     one: 1,
+//     two: 2
+// };
 
-    // const newObj = {...q};
+// const newObj = {...q};
 
 /// 36/////////////////////////////////////////////////////////////
 
@@ -940,7 +940,7 @@
 //     privat: false,
 //     start: function() {
 //         personalMovieDB.count = +prompt('Сколько фильмов вы уже посмотрели?', '');
-    
+
 //         while (personalMovieDB.count == '' || personalMovieDB.count == null || isNaN(personalMovieDB.count)) {
 //             personalMovieDB.count = +prompt('Сколько фильмов вы уже посмотрели?', '');
 //         }
@@ -949,7 +949,7 @@
 //         for (let i = 0; i < 2; i++) {
 //             const a = prompt('Один из последних просмотренных фильмов?', ''),
 //                 b = prompt('На сколько оцените его?', '');
-        
+
 //             if (a != null && b != null && a != '' && b != '' && a.length < 50) {
 //                 personalMovieDB.movies[a] = b;
 //                 console.log('well done');
@@ -1064,41 +1064,41 @@
 
 /// 40/////////////////////////////////////////////////////////////
 
-    // let number = 5; debugger
+// let number = 5; debugger
 
-    // function logNumber() {
-    //     // let number = 4; debugger
-    //     console.log(number);
-    // }
+// function logNumber() {
+//     // let number = 4; debugger
+//     console.log(number);
+// }
 
-    // number = 6;
+// number = 6;
 
-    // logNumber(); debugger
+// logNumber(); debugger
 
-    
-    // number = 10;
 
-    // logNumber(); debugger
+// number = 10;
 
-    ///////////////
+// logNumber(); debugger
 
-    // function createCounter() {
-    //     let counter = 0;
+///////////////
 
-    //     const myFunction = function() {
-    //         counter = counter + 1;
-    //         return counter;
-    //     }
+// function createCounter() {
+//     let counter = 0;
 
-    //     return myFunction;
-    // }
+//     const myFunction = function() {
+//         counter = counter + 1;
+//         return counter;
+//     }
 
-    // const increment = createCounter();
-    // const c1 = increment();
-    // const c2 = increment();
-    // const c3 = increment();
+//     return myFunction;
+// }
 
-    // console.log(c1, c2, c3);
+// const increment = createCounter();
+// const c1 = increment();
+// const c2 = increment();
+// const c3 = increment();
+
+// console.log(c1, c2, c3);
 
 /// 41/////////////////////////////////////////////////////////////
 
@@ -1147,30 +1147,116 @@
 
 // alert(null || 2 && 3 || 4);
 
-//////////////////
-
-
-/// 42/////////////////////////////////////////////////////////////
-
-/// 43/////////////////////////////////////////////////////////////
-
-
-
-/// 44/////////////////////////////////////////////////////////////
-
-
-
-/// 45/////////////////////////////////////////////////////////////
-
-
-
-/// 46/////////////////////////////////////////////////////////////
-
-
-
 /// 47/////////////////////////////////////////////////////////////
 
+// function pow(x, n) {
+//     let result = 1;
 
+//     for (let i = 0; i < n; i++) {
+//         result *= x;
+//         // result = x * result;
+//     }
+//     return result;
+// }
+
+// function pow(x, n) {
+
+//     if (n === 1) {
+//         return x;
+//     } else {
+//         return x * pow(x, n - 1);
+//     }
+// }
+
+// pow(2, 1) // 2
+// pow(2, 2) // 4
+// pow(2, 3) // 8
+// pow(2, 4) // 16
+
+// let students = {
+//     js: [{
+//         name: 'John',
+//         progress: 100
+//     }, {
+//         name: 'Ivan',
+//         progress: 60
+//     }],
+
+//     html: {
+//         basic: [{
+//             name: 'Peter',
+//             progress: 20
+//         }, {
+//             name: 'Ann',
+//             progress: 18
+//         }],
+//         pro: [{
+//             name: 'Sam',
+//             progress: 10
+//         }],
+
+//         semi: {
+//             students: [{
+//                 name: 'test',
+//                 progress: 100
+//             }]
+//         }
+//     }
+// };
+
+// function getTotalProgressByIteration(data) {
+//     let total = 0;
+//     let students = 0;
+
+//     for (let course of Object.values(data)) {
+//         if (Array.isArray(course)) {
+//             students += course.length;
+
+//             for (let i = 0; i < course.length; i++) {
+//                 total += course[i].progress;
+//             }
+//         } else {
+//             for (let subCourse of Object.values(course)) {
+//                 students += subCourse.length;
+//                 for (let i = 0; i < subCourse.length; i++) {
+//                     total += subCourse[i].progress;
+//                 }
+//             }
+//         }
+//     }
+
+//     return total / students;
+// }
+
+// console.log(getTotalProgressByIteration(students));
+
+//////////////////////////
+
+// function getTotalProgressByRecursion(data) {
+//     if (Array.isArray(data)) {
+//         let total = 0;
+
+//         for (let i = 0; i < data.length; i++) {
+//             total += data[i].progress;
+//         }
+
+//         return [total, data.length];
+//     } else {
+//         let total = [0, 0];
+
+//         for (let subData of Object.values(data)) {
+//             const subDataArr = getTotalProgressByRecursion(subData);
+//             total[0] += subDataArr[0];
+//             total[1] += subDataArr[1];
+//         }
+
+//         return total;
+//     }
+// }
+
+// const result = getTotalProgressByRecursion(students);
+
+// console.log(result[0] / result[1]);
 
 /// 48/////////////////////////////////////////////////////////////
 
